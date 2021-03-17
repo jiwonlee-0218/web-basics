@@ -1,5 +1,23 @@
 p {
     font-size: 60px;
     font-weight: 800;
+    text-align: left;
+    width: 35%;
+    margin: 0 auto;
+    
+}
+
+.inner{
+    font-size: 16px;
+    text-align: left;
+    font-weight: normal;
+    width: 35%;
+    margin: 0 auto;
+    line-height:180%
+}
+
+.outer{
+    width: 100%;
     text-align: center;
+    
 }
