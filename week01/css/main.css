@@ -16,8 +16,13 @@ p {
     line-height:180%
 }
 
-.outer{
+.outer{   
     width: 100%;
     text-align: center;
     
 }
+
+/* .은 class를 의미한다 */
+
+
+/* display: flex;, flex-direction: column; */
