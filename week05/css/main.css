@@ -1,0 +1,57 @@
+/* COMMON */
+body {
+    background-color: #f6f5f0;
+}
+
+.material-icons {
+    color: #f6f5f0;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+/* .yellowbox {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.bluebox {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+} */
+
+/* HEADER */
+header {
+    background-color: #000;
+    height:  60px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+/* 많은 아이들중에 header바로 아래있는 자식요소인 material-icons라는 소리 */
+header>.material-icons {
+    position: absolute; 
+}
+
+header>.material-icons#btn--open {
+    display: block;
+}
+
+header>.material-icons#btn--close {
+    display: none;
+}
+
+/* NAV */
+nav {
+    top: 60px;
+    width: 350px;
+    height: calc(100vh - 60px);
+    background: #000;
+    position: absolute;
+    transform: translateX(-100%);
+    transition: .4s;
+}
