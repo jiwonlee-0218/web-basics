@@ -257,8 +257,7 @@ header {
 }
 
 .circle {
-    border: 1px solid red ; 
-    background-color: salmon;
+    background-color: white;
     z-index: 2;
     border-radius: 32px ;
     height: 66px ;
@@ -267,8 +266,196 @@ header {
     position: absolute;
     top: 80px;
     left: 498px;
+    overflow: hidden;
 }
 
+.circle1 {
+    position: absolute;
+    height: 100%;
+    width: 260px;
+    cursor: pointer;
+    /* border-radius: 32px ; */
+}
+
+.cir1 {
+    position: absolute;
+    width: 227px;
+    height: 18px;
+    top: 15px;
+    left: 32px;
+    border-right: 1px solid #b0b0b0;
+
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.cir1_2{
+    position: absolute;
+    width: 227px;
+    height: 18px;
+    top: 33px;
+    left: 32px;
+    border-right: 1px solid #b0b0b0;
+
+    color: gray;
+    font-size: 15px ;
+    line-height: 18px ;
+    font-weight: 400;
+}
+
+.circle1:hover {
+    border-radius: 32px;
+    background: #D5D5D5;
+}
+
+.circle1:hover > .cir1 {
+    border-right: 1px solid white;
+}
+.circle1:hover > .cir1_2 {
+    border-right: 1px solid white;
+}
+
+
+.circle2 {
+    position: absolute;
+    height: 100%;
+    width: 180px;
+    left: 260px;
+    cursor: pointer;
+}
+
+.cir2 {
+    position: absolute;
+    width: 148px;
+    height: 18px;
+    top: 15px;
+    left: 32px;
+    border-right: 1px solid #b0b0b0;
+
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.cir2_2{
+    position: absolute;
+    width: 148px;
+    height: 18px;
+    top: 33px;
+    left: 32px;
+    border-right: 1px solid #b0b0b0;
+
+    color: gray;
+    font-size: 15px ;
+    line-height: 18px ;
+    font-weight: 400;
+}
+
+.circle2:hover {
+    border-radius: 32px;
+    background: #D5D5D5;
+}
+
+.circle2:hover > .cir1 {
+    border-right: 1px solid white;
+}
+.circle2:hover > .cir1_2 {
+    border-right: 1px solid white;
+}
+.circle2:hover > .cir2 {
+    border-right: 1px solid white;
+}
+.circle2:hover > .cir2_2 {
+    border-right: 1px solid white;
+}
+
+.circle3 {
+    position: absolute;
+    height: 100%;
+    width: 180px;
+    left: 440px;
+    /* border-radius: 32px ; */
+}
+
+.circle3:hover {
+    border-radius: 32px;
+    background: #D5D5D5;
+}
+
+.circle3:hover > .cir2 {
+    border-right: 1px solid white;
+}
+.circle3:hover > .cir2_2 {
+    border-right: 1px solid white;
+}
+
+
+
+.circle4 {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 620px);
+    left: 620px;
+    /* border-radius: 32px ; */
+}
+
+.cir4 {
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    top: 15px;
+    left: 32px;
+
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.cir4_2{
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    top: 33px;
+    left: 32px;
+
+    color: gray;
+    font-size: 15px ;
+    line-height: 18px ;
+    font-weight: 400;
+}
+
+.circle4:hover {
+    border-radius: 32px;
+    background: #D5D5D5;
+}
+
+.cir4_3 {
+    position: absolute;
+    background-color: #ff545f;
+    width: 45px;
+    height: 43px;
+    top: 10px;
+    right: 15px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cir4_3:hover {
+    background-color: #ff0066;
+}
+.cir4_3:hover > .circle4 {
+    background: white;
+}
+
+.cir4_3>.material-icons {
+    color: white;
+}
 
 ._3hm {
     background-color: white;
@@ -328,7 +515,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 60px;
+    bottom: 0px;
     margin: 0 auto;
     width: 682px;
     height: 149px;
@@ -406,7 +593,7 @@ header {
 }
 
 ._1gw2 {
-    background-color: black;
+    background-color: paleturquoise;
     position: absolute;
     width: 100%;
     height: 600px;
@@ -640,6 +827,7 @@ header {
     box-sizing: border-box;
     flex-direction: row;
     display: flex;
+    border-bottom: 1px solid #b0b0b0;
 }
 
 ._113ys {
@@ -763,3 +951,154 @@ header {
     color: black;
 }
 
+._1tu {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0px;
+    top: 473px;
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+}
+
+._9q3 {
+    background-color: white;
+    position: absolute;
+    width: 1243px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+}
+
+._9q31 {
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+._9q31:hover {
+    text-decoration:underline;
+}
+
+
+.language {
+    position: absolute;
+    background-color: brown;
+    height: 100%;
+    width: 110px;
+    top: 0;
+    right: 360px;
+}
+
+
+.language1 {
+    position: absolute;
+    background-color: brown;
+    height: 100%;
+    width: 85px;
+    top: 0;
+    right: 260px;
+}
+
+.language2 {
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    top: 0;
+    right: 0;
+    padding-left: 10px;
+}
+
+.korea {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 10px;
+}
+
+.korea1 {
+    position: absolute;
+    left: 30px;
+    color: black;
+    text-decoration: underline;
+    bottom: 10px;
+
+    font-size: 14px;
+    font-weight: 600
+}
+
+.korea2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    bottom: 0;
+    left: 10;
+    margin: auto 0;
+}
+
+.korea2:hover {
+    opacity: 0.5;
+}
+
+.korea3 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    margin: auto 0;
+}
+
+.korea3:hover {
+    opacity: 0.5;
+}
+
+.korea4 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    bottom: 0;
+    left: 90px;
+    margin: auto 0;
+}
+
+.korea4:hover {
+    opacity: 0.5;
+}
+
+.korea5 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    bottom: 0;
+    left: 130px;
+    margin: auto 0;
+}
+
+.korea5:hover {
+    opacity: 0.5;
+}
+
+.korea6 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    bottom: 0;
+    left: 170px;
+    margin: auto 0;
+}
+
+.korea6:hover {
+    opacity: 0.5;
+}
