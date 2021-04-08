@@ -23,11 +23,11 @@ header {
 }
 
 .otdka {
-    width: 621px;
+    width: 500px;
     height: 80px;
-    flex: 1 0 140px;
-    background-color:black;
+    background-color: blue;
     position: absolute;
+    left: 170px;
 }
 
 .abc {
@@ -43,7 +43,7 @@ header {
     width: 450px;
     height: 48px;
     position: absolute;
-    left: 702px;
+    left: 670px;
     top: 16px;
     padding: 0 24px;
     display: flex;
@@ -61,20 +61,31 @@ header {
     font-weight: 400;
     padding: 10px 16px;
     margin: 5px;
-    background-color: aqua; 
+    background-color: black; 
     text-align: center;
+    cursor: default;
 }
 
 .sukso1 {
-    background-color: blue;
+    background-color: white;
     border-radius: 1px;
     height: 2px;
     width: 18px;
-    z-index: 1;
     position: absolute;
     bottom: 0;
     margin-left: 7px;
 }
+
+
+/* .sukso:hover > .sukso1 {
+    width: 7px;
+    margin-left: 14px;
+}
+
+.sukso:hover {
+    color: gray;
+    cursor: default;
+} */
 
 .chehum {
     position: relative;
@@ -84,38 +95,77 @@ header {
     font-weight: 400;
     padding: 10px 16px;
     margin: 5px;
-    background-color: aqua; 
+    background-color: black; 
     text-align: center;
+    cursor: pointer;
+    text-decoration:none;
 }
 
 .chehum1 {
-    background-color: blue;
-    border-radius: 1px;
-    height: 2px;
-    width: 18px;
-    z-index: 1;
     position: absolute;
+    visibility: hidden;
+    height: 2px;
+    width: 1px;
+    background-color: white;
+    border-radius: 1px;
     bottom: 0;
-    margin-left: 7px;
+    margin-left: 17px;
+    transition: .3s linear;
+}
+
+.chehum:hover > .chehum1 {
+    position: absolute;
+    visibility: visible;
+    transform: scaleX( 8.0 );
+    transition: .3s linear;
+}
+
+.chehum:hover {
+    color: gray;
 }
 
 .online {
-   
+    position: relative;
     font-size: 16px;
     color: white; 
     line-height: 20px; 
     font-weight: 400;
     padding: 10px 16px;
     margin: 5px;
-    background-color: aqua; 
+    background-color: black; 
     text-align: center;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.online1 {
+    position: absolute;
+    visibility: hidden;
+    height: 2px;
+    width: 1px;
+    background-color: white;
+    border-radius: 1px;
+    bottom: 0;
+    margin-left: 40px;
+    transition: .3s linear;
+}
+
+.online:hover > .online1 {
+    position: absolute;
+    visibility: visible;
+    transform: scaleX( 8.0 );
+    transition: .3s linear;
+}
+
+.online:hover {
+    color: gray;
 }
 
 ._19h {
     background-color: sienna;
     width: 622px;
     height: 80px;
-    left: 1201px;
+    left: 1168px;
     position: absolute;
     
 }
@@ -129,9 +179,10 @@ header {
 }
 
 ._176 {
-    margin-right: 8px;
+    /* margin-right: 8px; */
     height: 42px;
-    width: 478px;
+    /* width: 478px; */
+    width: 430px;
     background-color: chartreuse;
     position: absolute;
     display: flex;
@@ -141,7 +192,8 @@ header {
 .q73 {
     appearance: none;
     background: transparent;
-    background-color: cornsilk;
+    background-color: red;
+    color: white;
     height: auto;
     border: 0px;
     cursor: pointer;
@@ -157,6 +209,11 @@ header {
     z-index: 1;
 }
 
+.q73:hover {
+    background-color: #717171;
+    border-radius: 30px ;
+}
+
 #pp {
     right: 0;
 }
@@ -165,9 +222,11 @@ header {
 
 
 .igl {
+    background-color: salmon;
     display: flex ;
     align-items: center;
     height: auto;
+    justify-content: center;
     position: relative;
     z-index: 1;
 }
@@ -175,20 +234,26 @@ header {
 
 
 .lub {
-    background-color: cornsilk;
-    position: relative;
-    display: inline-block;
-    height: auto;
-    align-items: center;
+    background-color:black;
+    width: 42px;
+    height: 42px;
+    left: 430px;
     position: absolute;
-    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.bb{
-    display: block;
-    height: 18px;
-    width: 18px;
-    fill: currentcolor;
+.lub>.bb{
+    position: absolute;
+    width: auto;
+    height: 40px;
+}
+
+.lub:hover {
+    background-color: #717171;
+    border-radius: 30px ;
+
 }
 
 .circle {
@@ -211,7 +276,7 @@ header {
     display: flex;
     height: 42px;
     width: 90px;
-    right: 10px;
+    right: 60px;
     border-radius: 32px ;
 }
 
@@ -246,3 +311,164 @@ header {
     width: 100%;
     left: 0;
 }
+
+
+.dae4 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 1680px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+
+._1vu {
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    margin: 0 auto;
+    width: 682px;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._1y0 {
+    background-color: black;
+    height: 60px;
+    width: 682px;
+
+    font-size: 40px;
+    letter-spacing: -0.02em;
+    line-height: 36px;
+    font-weight: 500;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+._1gw {
+    background-color: blueviolet;
+    position: absolute;
+    width: 100%;
+    height: 292px;
+    top: 952px;
+    left: 0;
+    padding: 30px 80px 20px 80px;
+    box-sizing: border-box;
+
+}
+
+
+._1sx {
+    background-color: white;
+    position: absolute;
+    width: calc(100% - 160px);
+    height: 242px;
+}
+
+.yk4 {
+    background-color: yellow;
+    position: absolute;
+    width: 100%;
+    height: 68px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+._4bd {
+    position: absolute;
+    top: 68px;
+    width: 100%;
+    height: 144px;
+
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    background-color: teal;
+    gap: 16px;
+    grid-auto-flow: row ;
+}
+
+._1dv {
+    background-color:pink;
+    scroll-snap-align: start ;
+    overflow: hidden ;
+    height: 100% ;
+}
+
+._1gw2 {
+    background-color: yellow;
+    position: absolute;
+    width: 100%;
+    height: 363.25px;
+    top: 1244px;
+    left: 0;
+}
+
+._1gw3 {
+    background-color: greenyellow;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 1607.25px;
+    left: 0;
+}
+
+
+._1gw4 {
+    background-color: darkgrey;
+    position: absolute;
+    width: 100%;
+    height: 586.66px;
+    top: 2007.25px;
+    left: 0;
+}
+
+
+
+._1gw5 {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 24px;
+    top: 2593.91px;
+    left: 0;
+}
+
+
+._1gw6 {
+    background-color:thistle;
+    position: absolute;
+    width: 100%;
+    height: 562px;
+    top: 2617.91px;
+    left: 0;
+}
+
+.city {
+    position: absolute;
+    height: 64px ;
+    width: 64px;
+    border-radius: 8px;
+}
+
+._1i1 {
+    background-color: burlywood;
+    color: black;
+    position: absolute;
+    left: 80px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    margin: 10px auto;
+}
+
