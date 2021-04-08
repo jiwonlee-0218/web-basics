@@ -328,10 +328,10 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 30px;
+    bottom: 0;
     margin: 0 auto;
     width: 682px;
-    height: 150px;
+    height: 149px;
 
     display: flex;
     justify-content: center;
@@ -356,11 +356,11 @@ header {
 
 
 ._1gw {
-    background-color: blueviolet;
+    background-color: violet;
     position: absolute;
     width: 100%;
     height: 292px;
-    top: 952px;
+    top: 907px;
     left: 0;
     padding: 30px 80px 20px 80px;
     box-sizing: border-box;
@@ -389,39 +389,118 @@ header {
     position: absolute;
     top: 68px;
     width: 100%;
-    height: 144px;
+    height: 174px;
 
     display: grid;
     grid-template-columns: repeat(4, auto);
     background-color: teal;
     gap: 16px;
-    grid-auto-flow: row ;
+    grid-auto-flow: row;
 }
 
 ._1dv {
     background-color:pink;
     scroll-snap-align: start ;
     overflow: hidden ;
-    height: 100% ;
+    height: 100%;
 }
 
 ._1gw2 {
-    background-color: yellow;
+    background-color: black;
     position: absolute;
     width: 100%;
-    height: 363.25px;
-    top: 1244px;
+    height: 600px;
+    top: 1199px;
     left: 0;
+    padding: 40px 80px 80px;
+    box-sizing: border-box;
+}
+
+._1xs2 {
+    background-color: white;
+    position: absolute;
+    width: calc(100% - 160px);
+    height: 365.25px;
 }
 
 ._1gw3 {
     background-color: greenyellow;
     position: absolute;
     width: 100%;
-    height: 400px;
-    top: 1607.25px;
+    height: 550px;
+    top: 1800px;
     left: 0;
+    padding: 0 80px 80px;
+    box-sizing: border-box;
 }
+
+._1xs3 {
+    background-color: white;
+    position: absolute;
+    width: calc(100% - 160px);
+    height: 470px;
+}
+
+._dohost {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+._13a {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    padding: 0 80px;
+}
+
+._1en {
+    position: absolute;
+    background-color: pink;
+    width: 384px;
+    height: 104px;
+    top: 80px;
+
+    color: white;
+    font-weight: 600;
+    font-size: 48px ;
+    line-height: 52px ;
+}
+
+._1eu {
+    position: absolute;
+    background-color: hotpink;
+    width: 384px;
+    height: 60px;
+    top: 205px;
+
+    color: white;
+    font-size: 18px ;
+    line-height: 24px ;
+}
+
+
+._4br {
+    position: absolute;
+    background-color: white;
+    width: 163.42px;
+    height: 48px;
+    top: 320px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    font-size: 16px ;
+    line-height: 20px ;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
 
 
 ._1gw4 {
@@ -429,7 +508,7 @@ header {
     position: absolute;
     width: 100%;
     height: 586.66px;
-    top: 2007.25px;
+    top: 2350px;
     left: 0;
 }
 
@@ -440,7 +519,7 @@ header {
     position: absolute;
     width: 100%;
     height: 24px;
-    top: 2593.91px;
+    top: 2697.91px;
     left: 0;
 }
 
@@ -450,7 +529,7 @@ header {
     position: absolute;
     width: 100%;
     height: 562px;
-    top: 2617.91px;
+    top: 2721.91px;
     left: 0;
 }
 
@@ -466,9 +545,74 @@ header {
     color: black;
     position: absolute;
     left: 80px;
-    width: 100%;
+    width: 182.75px;
     top: 0;
     bottom: 0;
     margin: 10px auto;
+}
+
+
+._1xs2 {
+    background-color: white;
+    position: absolute;
+    width: calc(100% - 160px);
+    height: 363.25px;
+}
+
+
+._3uc {
+    display: flex;
+    background-color: crimson;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 53px;
+    height: 420px;
+    width: auto;
+    list-style: none;
+}
+
+._1hf {
+    float: left;
+    width: 400px;
+    height: 370px;
+    border-radius: 8px;
+    margin-left: -20px;
+    margin-right: 27px;
+}
+
+._1hf2 {
+    float: left;
+    width: 400px;
+    height: 370px;
+    border-radius: 8px;
+    margin-right: 48px;
+}
+
+.hehe {
+    background-color: white;
+    width: 400px ;
+    position: absolute;
+    top: 370px;
+    margin-left: -20px;
+    margin-right: 27px;
+    
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: black;
+}
+
+.hehe2 {
+    background-color: white;
+    width: 400px ;
+    position: absolute;
+    top: 370px;
+    margin-right: 48px;
+    
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: black;
 }
 
