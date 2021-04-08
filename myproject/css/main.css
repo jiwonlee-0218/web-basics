@@ -1,0 +1,248 @@
+body {
+    height: 2000px;
+    position: static;
+}
+
+header {
+    display: block;
+}
+
+.head {
+    background-color: #000;
+    width: 100%;
+    height: 113px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.eqf {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.otdka {
+    width: 621px;
+    height: 80px;
+    flex: 1 0 140px;
+    background-color:black;
+    position: absolute;
+}
+
+.abc {
+    width: 150px;
+    height: 80px;
+    display: inline-flex;
+    position: relative;
+}
+
+
+.lc0 {
+    background-color: gold;
+    width: 450px;
+    height: 48px;
+    position: absolute;
+    left: 702px;
+    top: 16px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+
+.sukso {
+    position: relative;
+    font-size: 16px;
+    color: white; 
+    line-height: 20px; 
+    font-weight: 400;
+    padding: 10px 16px;
+    margin: 5px;
+    background-color: aqua; 
+    text-align: center;
+}
+
+.sukso1 {
+    background-color: blue;
+    border-radius: 1px;
+    height: 2px;
+    width: 18px;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    margin-left: 7px;
+}
+
+.chehum {
+    position: relative;
+    font-size: 16px;
+    color: white; 
+    line-height: 20px; 
+    font-weight: 400;
+    padding: 10px 16px;
+    margin: 5px;
+    background-color: aqua; 
+    text-align: center;
+}
+
+.chehum1 {
+    background-color: blue;
+    border-radius: 1px;
+    height: 2px;
+    width: 18px;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    margin-left: 7px;
+}
+
+.online {
+   
+    font-size: 16px;
+    color: white; 
+    line-height: 20px; 
+    font-weight: 400;
+    padding: 10px 16px;
+    margin: 5px;
+    background-color: aqua; 
+    text-align: center;
+}
+
+._19h {
+    background-color: sienna;
+    width: 622px;
+    height: 80px;
+    left: 1201px;
+    position: absolute;
+    
+}
+
+
+.vuz {
+    align-items: center;
+    display: flex;
+    position: relative;
+    height: 80px;
+}
+
+._176 {
+    margin-right: 8px;
+    height: 42px;
+    width: 478px;
+    background-color: chartreuse;
+    position: absolute;
+    display: flex;
+}
+
+
+.q73 {
+    appearance: none;
+    background: transparent;
+    background-color: cornsilk;
+    height: auto;
+    border: 0px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 12px;
+    text-align: inherit;
+    text-decoration: none;
+    position: absolute;
+    z-index: 1;
+}
+
+#pp {
+    right: 0;
+}
+
+
+
+
+.igl {
+    display: flex ;
+    align-items: center;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.lub {
+    background-color: cornsilk;
+    position: relative;
+    display: inline-block;
+    height: auto;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+
+.bb{
+    display: block;
+    height: 18px;
+    width: 18px;
+    fill: currentcolor;
+}
+
+.circle {
+    border: 1px solid red ; 
+    background-color: salmon;
+    z-index: 2;
+    border-radius: 32px ;
+    height: 66px ;
+    width: 850px ;
+    display: flex ;
+    position: absolute;
+    top: 80px;
+    left: 498px;
+}
+
+
+._3hm {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    height: 42px;
+    width: 90px;
+    right: 10px;
+    border-radius: 32px ;
+}
+
+
+.material-icons {
+    color: #717171;
+    font-size: 28px;
+    margin: 0 6px;
+}
+
+
+._1us {
+    appearance: none ;
+    background: transparent ;
+    border: 0;
+    color: #222222 ;
+    cursor: pointer ;
+    display: inline-flex;
+    margin: 0px;
+    padding: 5px 5px 5px 5px ;
+    text-align: inherit ;
+    text-decoration: none ;
+}
+
+
+
+.hnj {
+    position: absolute;
+    top: 113px;
+    background-color: black;
+    height: calc(100% - 113px);
+    width: 100%;
+    left: 0;
+}
