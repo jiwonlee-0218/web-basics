@@ -8,7 +8,7 @@ header {
 }
 
 .head {
-    background-color: #000;
+    background-color: black;
     width: 100%;
     height: 113px;
     position: absolute;
@@ -16,6 +16,7 @@ header {
     top: 0;
     z-index: 1;
 }
+
 
 /* .head_padding {
     padding-left: 80px;
@@ -228,6 +229,7 @@ header {
 }
 
 .global>.bb{
+
     position: absolute;
     width: 30px;
     height: 30px;
@@ -300,7 +302,7 @@ header {
     height: 18px;
     top: 15px;
     left: 32px;
-    border-right: 1px solid #b0b0b0;
+    border-right: 1px solid #E4E4E4;
 
     color: black;
     font-weight: 800;
@@ -314,7 +316,7 @@ header {
     height: 18px;
     top: 33px;
     left: 32px;
-    border-right: 1px solid #b0b0b0;
+    border-right: 1px solid #E4E4E4;
 
     color: gray;
     font-size: 15px ;
@@ -324,7 +326,7 @@ header {
 
 .circle1:hover {
     border-radius: 32px;
-    background: #D5D5D5;
+    background: #E4E4E4;
 }
 
 .circle1:hover > .cir1 {
@@ -349,7 +351,8 @@ header {
     height: 18px;
     top: 15px;
     left: 32px;
-    border-right: 1px solid #b0b0b0;
+    border-right: 1px solid #E4E4E4;
+
 
     color: black;
     font-weight: 800;
@@ -363,7 +366,7 @@ header {
     height: 18px;
     top: 33px;
     left: 32px;
-    border-right: 1px solid #b0b0b0;
+    border-right: 1px solid #E4E4E4;
 
     color: gray;
     font-size: 15px ;
@@ -373,7 +376,7 @@ header {
 
 .circle2:hover {
     border-radius: 32px;
-    background: #D5D5D5;
+    background: #E4E4E4;
 }
 
 .circle2:hover > .cir1 {
@@ -399,7 +402,7 @@ header {
 
 .circle3:hover {
     border-radius: 32px;
-    background: #D5D5D5;
+    background: #E4E4E4;
 }
 
 .circle3:hover > .cir2 {
@@ -447,7 +450,7 @@ header {
 
 .circle4:hover {
     border-radius: 32px;
-    background: #D5D5D5;
+    background: #E4E4E4;
 }
 
 .cir4_3 {
@@ -478,10 +481,10 @@ header {
 
 
 .main_background {
+    background-color: black;
     position: absolute;
     top: 113px;
-    background-color: black;
-    height: 794px;
+    height: 770px;
     /* height: calc(100% - 113px); */
     width: 100%;
     left: 0;
@@ -489,11 +492,12 @@ header {
 
 
 .main_image {
+    top: 115px;
     position: absolute;
     left: 0;
     right: 0;
     width: 1680px;
-    height: 750px;
+    height: 620px;
     margin: 0 auto;
 }
 
@@ -502,10 +506,10 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 4px;
     margin: 0 auto;
     width: 682px;
-    height: 150px;
+    height: 140px;
 
     display: flex;
     justify-content: center;
@@ -516,12 +520,11 @@ header {
     height: 60px;
     width: 682px;
 
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: -0.02em;
     line-height: 36px;
-    font-weight: 500;
     color: white;
-
+    font-weight: 200;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -529,7 +532,6 @@ header {
 
 
 .section1 {
-    background-color: violet;
     position: absolute;
     width: 100%;
     height: 292px;
@@ -550,7 +552,6 @@ header {
 }
 
 .section_head {
-    background-color: yellow;
     position: absolute;
     width: 100%;
     height: 68px;
@@ -567,13 +568,11 @@ header {
 
     display: grid;
     grid-template-columns: repeat(4, auto);
-    background-color: teal;
     gap: 16px;
     grid-auto-flow: row;
 }
 
 .grid_shape {
-    background-color:pink;
     overflow: hidden ;
     height: 100%;
 }
@@ -586,7 +585,6 @@ header {
 }
 
 .city_time {
-    background-color: burlywood;
     color: black;
     position: absolute;
     left: 80px;
@@ -597,7 +595,6 @@ header {
 }
 
 .section2 {
-    background-color: paleturquoise;
     position: absolute;
     width: 100%;
     height: 600px;
@@ -617,7 +614,6 @@ header {
 
 .section2_ul {
     display: flex;
-    background-color: crimson;
     position: absolute;
     right: 0;
     left: 0;
@@ -688,7 +684,6 @@ header {
 
 
 .section3 {
-    background-color: greenyellow;
     position: absolute;
     width: 100%;
     height: 550px;
@@ -721,7 +716,6 @@ header {
 
 .section3_1 {
     position: absolute;
-    background-color: pink;
     width: 384px;
     height: 104px;
     top: 80px;
@@ -734,7 +728,6 @@ header {
 
 .section3_2 {
     position: absolute;
-    background-color: hotpink;
     width: 384px;
     height: 60px;
     top: 205px;
@@ -780,7 +773,6 @@ header {
 
 
 .section4 {
-    background-color: darkgrey;
     position: absolute;
     width: 100%;
     height: 650px;
@@ -798,7 +790,6 @@ header {
 }
 
 .section4_head {
-    background-color: yellow;
     position: absolute;
     width: 100%;
     height: 50px;
@@ -807,7 +798,6 @@ header {
 }
 
 .section4_head_2 {
-    background-color: yellow;
     position: absolute;
     top:50px;
     width: 100%;
@@ -818,7 +808,6 @@ header {
 }
 
 .section4_article1 {
-    background-color: pink;
     position: absolute;
     top: 120px;
     width: 550px;
@@ -826,7 +815,6 @@ header {
 }
 
 .section4_article2 {
-    background-color: pink;
     position: absolute;
     top: 120px;
     width: 550px;
@@ -835,7 +823,6 @@ header {
 }
 
 .section4_article3 {
-    background-color: purple;
     position: absolute;
     top: 120px;
     width: 550px;
@@ -852,7 +839,6 @@ header {
 }
 
 .section4_menu {
-    background-color: rosybrown;
     position: absolute;
     width: 100%;
     height: 22px;
@@ -865,7 +851,6 @@ header {
 }
 
 .section4_menu_info {
-    background-color: rosybrown;
     position: absolute;
     width: 100%;
     height: 22px;
@@ -881,15 +866,7 @@ header {
 
 
 
-
-
-
-
-
-
-
 .section5 {
-    background-color: blueviolet;
     position: absolute;
     width: 100%;
     height: 24px;
@@ -906,17 +883,8 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
 .footer {
-    background-color:#f7f7f7;
+    background-color: #F6F6F6;
     position: absolute;
     width: 100%;
     height: 562px;
@@ -924,18 +892,16 @@ header {
     left: 0;
     padding: 0 80px 80px;
     box-sizing: border-box;
-    border-top: 1px solid #b0b0b0;
+    border-top: 1px solid #E1E1E1;
 }
 
 .footer_shape {
-    background-color: pink;
     position: absolute;
     width: calc(100% - 160px);
     height: 562px;
 }
 
 .footer_shape_top {
-    background-color: rebeccapurple;
     position: absolute;
     width: 100%;
     height: 473px;
@@ -943,7 +909,7 @@ header {
     box-sizing: border-box;
     flex-direction: row;
     display: flex;
-    border-bottom: 1px solid #b0b0b0;
+    border-bottom: 1px solid #E1E1E1;
 }
 
 /* .footer_section {
@@ -957,12 +923,11 @@ header {
 
 .section_menu {
     color: black;
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 0;
 }
 
 .section_ul {
-    background-color: cadetblue;
     display: block;
     margin-left: 0;
     margin-right: 0;
@@ -994,7 +959,6 @@ header {
 
 
 .footer_shape_bottom {
-    background-color: blue;
     position: absolute;
     width: 100%;
     height: 40px;
@@ -1006,7 +970,6 @@ header {
 }
 
 .footer_shape_bottom_info {
-    background-color: white;
     position: absolute;
     width: 1243px;
     height: 100%;
@@ -1032,7 +995,6 @@ header {
 
 .footer_shape_bottom_language {
     position: absolute;
-    background-color: brown;
     height: 100%;
     width: 110px;
     top: 0;
@@ -1042,7 +1004,6 @@ header {
 
 .footer_shape_bottom_currency {
     position: absolute;
-    background-color: white;
     height: 100%;
     width: 85px;
     top: 0;
