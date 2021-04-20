@@ -17,20 +17,19 @@ header {
     z-index: 1;
 }
 
-.eqf {
+/* .head_padding {
     padding-left: 80px;
     padding-right: 80px;
-}
+} */
 
-.otdka {
+.head_left {
     width: 500px;
     height: 80px;
-    background-color: blue;
     position: absolute;
     left: 170px;
 }
 
-.abc {
+.head_left1 {
     width: 150px;
     height: 80px;
     display: inline-flex;
@@ -38,8 +37,7 @@ header {
 }
 
 
-.lc0 {
-    background-color: gold;
+.head_middle {
     width: 450px;
     height: 48px;
     position: absolute;
@@ -77,15 +75,6 @@ header {
 }
 
 
-/* .sukso:hover > .sukso1 {
-    width: 7px;
-    margin-left: 14px;
-}
-
-.sukso:hover {
-    color: gray;
-    cursor: default;
-} */
 
 .chehum {
     position: relative;
@@ -161,8 +150,7 @@ header {
     color: gray;
 }
 
-._19h {
-    background-color: sienna;
+.head_right {
     width: 622px;
     height: 80px;
     left: 1168px;
@@ -171,28 +159,24 @@ header {
 }
 
 
-.vuz {
+.head_right1 {
     align-items: center;
     display: flex;
     position: relative;
     height: 80px;
 }
 
-._176 {
-    /* margin-right: 8px; */
+.head_right_menu {
     height: 42px;
-    /* width: 478px; */
     width: 430px;
-    background-color: chartreuse;
     position: absolute;
     display: flex;
 }
 
 
-.q73 {
+.host {
     appearance: none;
     background: transparent;
-    background-color: red;
     color: white;
     height: auto;
     border: 0px;
@@ -209,20 +193,19 @@ header {
     z-index: 1;
 }
 
-.q73:hover {
-    background-color: #717171;
+.host:hover {
+    background-color: #333333;
     border-radius: 30px ;
 }
 
-#pp {
+#host_1 {
     right: 0;
 }
 
 
 
 
-.igl {
-    background-color: salmon;
+.host_2 {
     display: flex ;
     align-items: center;
     height: auto;
@@ -233,7 +216,7 @@ header {
 
 
 
-.lub {
+.global {
     background-color:black;
     width: 42px;
     height: 42px;
@@ -244,17 +227,51 @@ header {
     align-items: center;
 }
 
-.lub>.bb{
+.global>.bb{
     position: absolute;
-    width: auto;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
-.lub:hover {
-    background-color: #717171;
+.global:hover {
+    background-color: #333333;
     border-radius: 30px ;
 
 }
+
+
+.membership {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    height: 42px;
+    width: 85px;
+    right: 50px;
+    border-radius: 32px ;
+}
+
+
+.material-icons {
+    color: #717171;
+    font-size: 28px;
+    margin: 0 6px;
+}
+
+
+.membership_menu {
+    appearance: none ;
+    background: transparent ;
+    border: 0;
+    color: #222222 ;
+    cursor: pointer ;
+    display: inline-flex;
+    margin: 0px;
+    padding: 5px 5px 5px 5px ;
+    text-align: inherit ;
+    text-decoration: none ;
+}
+
+
 
 .circle {
     background-color: white;
@@ -457,40 +474,10 @@ header {
     color: white;
 }
 
-._3hm {
-    background-color: white;
-    position: absolute;
-    display: flex;
-    height: 42px;
-    width: 90px;
-    right: 60px;
-    border-radius: 32px ;
-}
-
-
-.material-icons {
-    color: #717171;
-    font-size: 28px;
-    margin: 0 6px;
-}
-
-
-._1us {
-    appearance: none ;
-    background: transparent ;
-    border: 0;
-    color: #222222 ;
-    cursor: pointer ;
-    display: inline-flex;
-    margin: 0px;
-    padding: 5px 5px 5px 5px ;
-    text-align: inherit ;
-    text-decoration: none ;
-}
 
 
 
-.hnj {
+.main_background {
     position: absolute;
     top: 113px;
     background-color: black;
@@ -501,7 +488,7 @@ header {
 }
 
 
-.dae4 {
+.main_image {
     position: absolute;
     left: 0;
     right: 0;
@@ -511,8 +498,7 @@ header {
 }
 
 
-._1vu {
-    background-color: red;
+.for_host {
     position: absolute;
     left: 0;
     right: 0;
@@ -526,8 +512,7 @@ header {
     align-items: center;
 }
 
-._1y0 {
-    background-color: blue;
+.for_host1 {
     height: 60px;
     width: 682px;
 
@@ -543,7 +528,7 @@ header {
 }
 
 
-._1gw {
+.section1 {
     background-color: violet;
     position: absolute;
     width: 100%;
@@ -557,14 +542,14 @@ header {
 }
 
 
-._1sx {
+.section1_shape {
     background-color: white;
     position: absolute;
     width: calc(100% - 160px);
     height: 242px;
 }
 
-.yk4 {
+.section_head {
     background-color: yellow;
     position: absolute;
     width: 100%;
@@ -574,7 +559,7 @@ header {
 }
 
 
-._4bd {
+.grid {
     position: absolute;
     top: 68px;
     width: 100%;
@@ -587,14 +572,31 @@ header {
     grid-auto-flow: row;
 }
 
-._1dv {
+.grid_shape {
     background-color:pink;
-    scroll-snap-align: start ;
     overflow: hidden ;
     height: 100%;
 }
 
-._1gw2 {
+.city {
+    position: absolute;
+    height: 64px ;
+    width: 64px;
+    border-radius: 8px;
+}
+
+.city_time {
+    background-color: burlywood;
+    color: black;
+    position: absolute;
+    left: 80px;
+    width: 182.75px;
+    top: 0;
+    bottom: 0;
+    margin: 10px auto;
+}
+
+.section2 {
     background-color: paleturquoise;
     position: absolute;
     width: 100%;
@@ -605,14 +607,87 @@ header {
     box-sizing: border-box;
 }
 
-._1xs2 {
+.section2_shape {
     background-color: white;
     position: absolute;
     width: calc(100% - 160px);
     height: 365.25px;
 }
 
-._1gw3 {
+
+.section2_ul {
+    display: flex;
+    background-color: crimson;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 53px;
+    height: 420px;
+    width: auto;
+    list-style: none;
+}
+
+.section2_item1 {
+    float: left;
+    width: 400px;
+    height: 370px;
+    border-radius: 8px;
+    margin-left: -20px;
+    margin-right: 27px;
+}
+
+.section2_item2 {
+    float: left;
+    width: 400px;
+    height: 370px;
+    border-radius: 8px;
+    margin-right: 48px;
+}
+
+.section2_menu1 {
+    background-color: white;
+    width: 400px ;
+    position: absolute;
+    top: 370px;
+    margin-left: -20px;
+    margin-right: 27px;
+    
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: black;
+}
+
+.section2_menu2 {
+    background-color: white;
+    width: 400px ;
+    position: absolute;
+    top: 370px;
+    margin-right: 48px;
+    
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section3 {
     background-color: greenyellow;
     position: absolute;
     width: 100%;
@@ -623,28 +698,28 @@ header {
     box-sizing: border-box;
 }
 
-._1xs3 {
+.section3_shape {
     background-color: white;
     position: absolute;
     width: calc(100% - 160px);
     height: 470px;
 }
 
-._dohost {
+.do_host {
     position: absolute;
     width: 100%;
     height: 100%;
     border-radius: 15px;
 }
 
-._13a {
+.section3_image {
     position: absolute;
     width: 50%;
     height: 100%;
     padding: 0 80px;
 }
 
-._1en {
+.section3_1 {
     position: absolute;
     background-color: pink;
     width: 384px;
@@ -657,7 +732,7 @@ header {
     line-height: 52px ;
 }
 
-._1eu {
+.section3_2 {
     position: absolute;
     background-color: hotpink;
     width: 384px;
@@ -670,7 +745,7 @@ header {
 }
 
 
-._4br {
+.section3_menu {
     position: absolute;
     background-color: white;
     width: 163.42px;
@@ -692,7 +767,19 @@ header {
 
 
 
-._1gw4 {
+
+
+
+
+
+
+
+
+
+
+
+
+.section4 {
     background-color: darkgrey;
     position: absolute;
     width: 100%;
@@ -703,14 +790,14 @@ header {
     box-sizing: border-box;
 }
 
-._1xs4 {
+.section4_shape {
     background-color: white;
     position: absolute;
     width: calc(100% - 160px);
     height: 100%;
 }
 
-.yk5 {
+.section4_head {
     background-color: yellow;
     position: absolute;
     width: 100%;
@@ -719,7 +806,7 @@ header {
     font-size: 32px;
 }
 
-._15z {
+.section4_head_2 {
     background-color: yellow;
     position: absolute;
     top:50px;
@@ -730,33 +817,33 @@ header {
     line-height: 36px;
 }
 
-._4626u {
+.section4_article1 {
     background-color: pink;
     position: absolute;
     top: 120px;
     width: 550px;
-    height: 550px;
+    height: 510px;
 }
 
-._4627u {
+.section4_article2 {
     background-color: pink;
     position: absolute;
     top: 120px;
     width: 550px;
-    height: 550px;
+    height: 510px;
     left: 600px;
 }
 
-._4628u {
+.section4_article3 {
     background-color: purple;
     position: absolute;
     top: 120px;
     width: 550px;
-    height: 550px;
+    height: 510px;
     left: 1193px;
 }
 
-.child {
+.section4_image {
     position: absolute;
     width: 100%;
     border-radius: 10px;
@@ -764,7 +851,7 @@ header {
     z-index: 1;
 }
 
-.ford {
+.section4_menu {
     background-color: rosybrown;
     position: absolute;
     width: 100%;
@@ -777,7 +864,7 @@ header {
     color: black;
 }
 
-.ford1 {
+.section4_menu_info {
     background-color: rosybrown;
     position: absolute;
     width: 100%;
@@ -791,7 +878,17 @@ header {
 }
 
 
-._1gw5 {
+
+
+
+
+
+
+
+
+
+
+.section5 {
     background-color: blueviolet;
     position: absolute;
     width: 100%;
@@ -801,7 +898,24 @@ header {
 }
 
 
-._1gw6 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
     background-color:#f7f7f7;
     position: absolute;
     width: 100%;
@@ -813,14 +927,14 @@ header {
     border-top: 1px solid #b0b0b0;
 }
 
-._1s9 {
+.footer_shape {
     background-color: pink;
     position: absolute;
     width: calc(100% - 160px);
     height: 562px;
 }
 
-.fyx {
+.footer_shape_top {
     background-color: rebeccapurple;
     position: absolute;
     width: 100%;
@@ -832,22 +946,22 @@ header {
     border-bottom: 1px solid #b0b0b0;
 }
 
-._113ys {
+/* .footer_section {
     position: absolute;
     width: 280.75px;
     height: 377px;
     padding-bottom: 0px ;
     margin-bottom: 0px ;
     border-bottom: 0px ;
-} 
+}  */
 
-.tfs {
+.section_menu {
     color: black;
     font-size: 14px;
     margin-bottom: 0;
 }
 
-.yuo {
+.section_ul {
     background-color: cadetblue;
     display: block;
     margin-left: 0;
@@ -857,103 +971,30 @@ header {
     width: 436px;
 }
 
-.wmu {
+.section_item {
     margin-top: 16px;
     padding-left: 0;
-    padding-right: 0;
 }
 
-.o06 {
+
+
+.section_item_font {
     font-size: 14px;
     line-height: 18px;
     text-decoration: none;
     color: black;
 }
 
-.city {
-    position: absolute;
-    height: 64px ;
-    width: 64px;
-    border-radius: 8px;
-}
-
-._1i1 {
-    background-color: burlywood;
-    color: black;
-    position: absolute;
-    left: 80px;
-    width: 182.75px;
-    top: 0;
-    bottom: 0;
-    margin: 10px auto;
+.section_item_font:hover {
+    text-decoration:underline;
 }
 
 
-._1xs2 {
-    background-color: white;
-    position: absolute;
-    width: calc(100% - 160px);
-    height: 363.25px;
-}
 
 
-._3uc {
-    display: flex;
-    background-color: crimson;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 53px;
-    height: 420px;
-    width: auto;
-    list-style: none;
-}
 
-._1hf {
-    float: left;
-    width: 400px;
-    height: 370px;
-    border-radius: 8px;
-    margin-left: -20px;
-    margin-right: 27px;
-}
-
-._1hf2 {
-    float: left;
-    width: 400px;
-    height: 370px;
-    border-radius: 8px;
-    margin-right: 48px;
-}
-
-.hehe {
-    background-color: white;
-    width: 400px ;
-    position: absolute;
-    top: 370px;
-    margin-left: -20px;
-    margin-right: 27px;
-    
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 600;
-    color: black;
-}
-
-.hehe2 {
-    background-color: white;
-    width: 400px ;
-    position: absolute;
-    top: 370px;
-    margin-right: 48px;
-    
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 600;
-    color: black;
-}
-
-._1tu {
+.footer_shape_bottom {
+    background-color: blue;
     position: absolute;
     width: 100%;
     height: 40px;
@@ -964,7 +1005,7 @@ header {
     align-items: center;
 }
 
-._9q3 {
+.footer_shape_bottom_info {
     background-color: white;
     position: absolute;
     width: 1243px;
@@ -977,19 +1018,19 @@ header {
     color: black;
 }
 
-._9q31 {
+.footer_shape_bottom_font {
     font-size: 14px;
     line-height: 18px;
     color: black;
     text-decoration: none;
 }
 
-._9q31:hover {
+.footer_shape_bottom_font:hover {
     text-decoration:underline;
 }
 
 
-.language {
+.footer_shape_bottom_language {
     position: absolute;
     background-color: brown;
     height: 100%;
@@ -999,16 +1040,16 @@ header {
 }
 
 
-.language1 {
+.footer_shape_bottom_currency {
     position: absolute;
-    background-color: brown;
+    background-color: white;
     height: 100%;
     width: 85px;
     top: 0;
     right: 260px;
 }
 
-.language2 {
+.footer_shape_bottom_sns {
     position: absolute;
     height: 100%;
     width: 200px;
@@ -1024,7 +1065,7 @@ header {
     bottom: 10px;
 }
 
-.korea1 {
+.korean {
     position: absolute;
     left: 30px;
     color: black;
@@ -1035,7 +1076,7 @@ header {
     font-weight: 600
 }
 
-.korea2 {
+.facebook {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -1045,11 +1086,11 @@ header {
     margin: auto 0;
 }
 
-.korea2:hover {
+.facebook:hover {
     opacity: 0.5;
 }
 
-.korea3 {
+.twitter {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -1059,11 +1100,11 @@ header {
     margin: auto 0;
 }
 
-.korea3:hover {
+.twitter:hover {
     opacity: 0.5;
 }
 
-.korea4 {
+.insta {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -1073,11 +1114,11 @@ header {
     margin: auto 0;
 }
 
-.korea4:hover {
+.insta:hover {
     opacity: 0.5;
 }
 
-.korea5 {
+.blog {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -1087,11 +1128,8 @@ header {
     margin: auto 0;
 }
 
-.korea5:hover {
-    opacity: 0.5;
-}
 
-.korea6 {
+.post {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -1099,8 +1137,4 @@ header {
     bottom: 0;
     left: 170px;
     margin: auto 0;
-}
-
-.korea6:hover {
-    opacity: 0.5;
 }
