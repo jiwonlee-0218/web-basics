@@ -31,10 +31,19 @@ header {
 }
 
 .head_left1 {
-    width: 150px;
+    width: 105px;
     height: 80px;
     display: inline-flex;
     position: relative;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    width: 102px;
+    height: 32px;
+    fill: currentcolor;
+    display: block;
 }
 
 
@@ -218,7 +227,7 @@ header {
 
 
 .global {
-    background-color:black;
+    background-color: black;
     width: 42px;
     height: 42px;
     left: 430px;
@@ -228,12 +237,15 @@ header {
     align-items: center;
 }
 
-.global>.bb{
-
-    position: absolute;
-    width: 30px;
-    height: 30px;
+.global>.global_icon{
+    display: block; 
+    height: 16px; 
+    width: 16px; 
+    fill: currentcolor;
+    color: white;
 }
+
+
 
 .global:hover {
     background-color: #333333;
@@ -415,11 +427,11 @@ header {
 
 
 .circle4 {
+    background-color: white;
     position: absolute;
     height: 100%;
     width: calc(100% - 620px);
     left: 620px;
-    /* border-radius: 32px ; */
 }
 
 .cir4 {
@@ -459,7 +471,7 @@ header {
     width: 45px;
     height: 43px;
     top: 10px;
-    right: 15px;
+    right: 8px;
     border-radius: 32px;
     display: flex;
     align-items: center;
@@ -473,8 +485,15 @@ header {
     background: white;
 }
 
-.cir4_3>.material-icons {
+.cir4_3>.search {
+    display: block; 
+    fill: none; 
+    height: 16px; 
+    width: 16px; 
+    stroke: currentcolor; 
+    stroke-width: 4; 
     color: white;
+    overflow: visible;
 }
 
 
