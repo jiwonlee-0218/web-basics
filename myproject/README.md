@@ -19,7 +19,7 @@
 - 2일전까지는 화면이 동일하였으나 4.24일(제출마감)에 다시 들어가보니 에어비앤비 홈페이지 메인화면의 사진이 다른 사진으로 바뀌었습니다.  
 
 # 내가 만든 클론코딩 홈페이지
-<img src="./images/1.PNG" height="150" width="150"> 
+<img src="./images/1.PNG" height="450" width="650"> 
 
 # 메인화면 배경이 바뀐 홈페이지
-<img src="./images/2.PNG" height="150" width="150">
+<img src="./images/2.PNG" height="450" width="650">
