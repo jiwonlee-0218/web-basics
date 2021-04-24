@@ -480,6 +480,7 @@ header {
 
 .cir4_3:hover {
     background-color: #ff0066;
+    cursor: pointer;
 }
 .cir4_3:hover > .circle4 {
     background: white;
