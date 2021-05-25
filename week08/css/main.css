@@ -1,0 +1,46 @@
+body {
+    background: cyan;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+h1 {
+    font-size: 50px;
+    color: blue;
+}
+
+
+/* 768px이 break point */
+/* only는 기본옵션으로 붙어있다. */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+        color: red;
+    }
+}
+
+
+/* 태블릿 pc */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    body {
+        background: green;
+    }
+
+    h1 {
+        color: yellow;
+    }
+}
+
+
+
+/* 모바일 */
+@media only screen and (max-width: 767px) {
+    body {
+        background: chocolate;
+    }
+}

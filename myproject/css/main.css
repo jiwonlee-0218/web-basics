@@ -47,6 +47,7 @@ header {
 }
 
 
+
 .head_middle {
     width: 450px;
     height: 48px;
@@ -235,7 +236,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+
 
 .global>.global_icon{
     display: block; 
@@ -287,9 +290,85 @@ header {
 
 
 
+
+
+
+
+
+.search_bar {
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    border-radius: 40px;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 8%), 0px 4px 12px rgb(0 0 0 / 8%);
+    width: 300px;
+    height: 48px;
+    position: absolute;
+    display: inline-flex;
+    margin: 15px 40%;
+
+    overflow: hidden;
+    transition: box-shadow 0.2s ease;
+    visibility: hidden;
+}
+
+.search_bar:hover {
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 15%), 0px 4px 12px rgb(0 0 0 / 15%);
+    cursor: pointer;
+}
+
+
+.search_bar_left{
+    height: 48px;
+    width: 230px;
+    position: absolute;
+
+    color: black;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 22px;
+}
+
+
+.search_bar_right {
+    position: absolute;
+    background-color: #ff545f;
+    width: 32px;
+    height: 32px;
+    top: 8px;
+    right: 8px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    display: block; 
+    fill: none; 
+    height: 16px; 
+    width: 16px; 
+    stroke: currentcolor; 
+    stroke-width: 4; 
+    color: white;
+    overflow: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
 .circle {
     background-color: white;
-    z-index: 2;
+    z-index: 1;
     border-radius: 32px ;
     height: 66px ;
     width: 850px ;
@@ -855,7 +934,7 @@ header {
     width: 100%;
     border-radius: 10px;
     height: 450px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .section4_menu {
