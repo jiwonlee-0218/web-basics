@@ -280,7 +280,7 @@ header {
 
 
 
-.circle {
+.another_circle {
     background-color: white;
     z-index: 1;
     border-radius: 32px ;
@@ -293,17 +293,17 @@ header {
     overflow: hidden;
 }
 
-.circle1 {
+.new_circle1 {
     position: absolute;
     height: 100%;
-    width: 260px;
+    width: 425px;
     cursor: pointer;
     /* border-radius: 32px ; */
 }
 
-.cir1 {
+.new_cir1 {
     position: absolute;
-    width: 227px;
+    width: 393px;
     height: 18px;
     top: 15px;
     left: 32px;
@@ -315,13 +315,13 @@ header {
     line-height: 16px;
 }
 
-.cir1_2{
+.new_cir1_2{
     position: absolute;
-    width: 227px;
+    width: 393px;
     height: 18px;
     top: 33px;
     left: 32px;
-    border-right: 1px solid #E4E4E4;
+    border-right: 1px solid #e4e4e4;
 
     color: gray;
     font-size: 15px ;
@@ -329,35 +329,24 @@ header {
     font-weight: 400;
 }
 
-.circle1:hover {
+.new_circle1:hover {
     border-radius: 32px;
     background: #E4E4E4;
 }
 
-.circle1:hover > .cir1 {
+.new_circle1:hover > .cir1 {
     border-right: 1px solid white;
 }
-.circle1:hover > .cir1_2 {
+.new_circle1:hover > .cir1_2 {
     border-right: 1px solid white;
 }
 
-
-.circle2 {
-    position: absolute;
-    height: 100%;
-    width: 180px;
-    left: 260px;
-    cursor: pointer;
-}
-
-.cir2 {
+.new_cir2 {
     position: absolute;
     width: 148px;
     height: 18px;
     top: 15px;
     left: 32px;
-    border-right: 1px solid #E4E4E4;
-
 
     color: black;
     font-weight: 800;
@@ -365,100 +354,35 @@ header {
     line-height: 16px;
 }
 
-.cir2_2{
+.new_cir2_2 {
     position: absolute;
     width: 148px;
     height: 18px;
     top: 33px;
     left: 32px;
-    border-right: 1px solid #E4E4E4;
 
     color: gray;
-    font-size: 15px ;
-    line-height: 18px ;
     font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
 }
 
-.circle2:hover {
-    border-radius: 32px;
-    background: #E4E4E4;
-}
-
-.circle2:hover > .cir1 {
-    border-right: 1px solid white;
-}
-.circle2:hover > .cir1_2 {
-    border-right: 1px solid white;
-}
-.circle2:hover > .cir2 {
-    border-right: 1px solid white;
-}
-.circle2:hover > .cir2_2 {
-    border-right: 1px solid white;
-}
-
-.circle3 {
+.new_circle3 {
     position: absolute;
     height: 100%;
-    width: 180px;
-    left: 440px;
+    width: 430px;
+    left: 425px;
     /* border-radius: 32px ; */
 }
 
-.circle3:hover {
+.new_circle3:hover {
     border-radius: 32px;
     background: #E4E4E4;
 }
 
-.circle3:hover > .cir2 {
-    border-right: 1px solid white;
-}
-.circle3:hover > .cir2_2 {
-    border-right: 1px solid white;
-}
 
-
-
-.circle4 {
-    background-color: white;
-    position: absolute;
-    height: 100%;
-    width: calc(100% - 620px);
-    left: 620px;
-}
-
-.cir4 {
-    position: absolute;
-    width: 80px;
-    height: 18px;
-    top: 15px;
-    left: 32px;
-
-    color: black;
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 16px;
-}
-
-.cir4_2{
-    position: absolute;
-    width: 80px;
-    height: 18px;
-    top: 33px;
-    left: 32px;
-
-    color: gray;
-    font-size: 15px ;
-    line-height: 18px ;
-    font-weight: 400;
-}
-
-.circle4:hover {
-    border-radius: 32px;
-    background: #E4E4E4;
-}
-
-.cir4_3 {
+.another_cir4_3 {
     position: absolute;
     background-color: #ff545f;
     width: 45px;
@@ -471,15 +395,15 @@ header {
     justify-content: center;
 }
 
-.cir4_3:hover {
+.another_cir4_3:hover {
     background-color: #ff0066;
     cursor: pointer;
 }
-.cir4_3:hover > .circle4 {
+.another_cir4_3:hover > .circle4 {
     background: white;
 }
 
-.cir4_3>.search {
+.another_cir4_3>.search {
     display: block; 
     fill: none; 
     height: 16px; 
@@ -488,4 +412,28 @@ header {
     stroke-width: 4; 
     color: white;
     overflow: visible;
+}
+
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.btn--scrollToTop {
+    position: fixed;
+    bottom: 60px;
+    width: 70px;
+    right: calc((100% - 1500px)/2 - 100px);
+    cursor: pointer;
+    animation: float 6s linear infinite;
+    border-radius: 100%;
+
 }

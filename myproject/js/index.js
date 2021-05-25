@@ -25,6 +25,23 @@ const present_head_middle = document.querySelector('.head_middle');
 // 스크롤을 내리면 새롭게 등장할 '검색 시작하기' 메뉴바
 const new_head_middle = document.querySelector('.search_bar');
 
+// 상단의 '숙소'
+const new_chehum = document.querySelector('.chehum');
+// 상단의 '숙소'에 마우스를 갖다대면 나오는 밑줄
+const new_chehum1 = document.querySelector('.chehum1');
+
+// 상단의 체험을 클릭했을때 나오는 '위치', '체크아웃'을 가리키는 상단바
+const another_circle = document.querySelector('.another_circle')
+
+// 상단의 '체험'
+const new_sukso = document.querySelector('.sukso');
+// 상단의 '체험'에 마우스를 갖다대면 나오는 밑줄
+const new_sukso1 = document.querySelector('.sukso1');
+
+// scroll to top을 하기위한 이미지
+const scrollToTop = document.querySelector(".scrollToTop")
+
+
 
 // 스크롤 이벤트 발생
 window.addEventListener('scroll', function() {  
@@ -35,6 +52,8 @@ window.addEventListener('scroll', function() {
         new_header.style.backgroundColor = "white" 
         new_header.style.height = "80px"
         new_header.style.boxShadow = "0px 4px 12px rgb(0 0 0 / 8%)"
+
+
 
 
         // 스크롤 내리면 상단바는 자연스럽게 위로 사라지도록 효과를 주었다.
@@ -104,9 +123,13 @@ window.addEventListener('scroll', function() {
         new_head_middle.style.visibility="visible"
 
 
+        // 스크롤을 내리면 이미지(버튼)가 보이게 한다
+        scrollToTop.style.display = 'block'
 
 
-    // 스크롤을 내리지 않았거나 다시 맨위로 올라갈 경우 기존에 main.css에 쓰여있는 효과들을 적용
+
+
+    // 첫 화면에서 스크롤을 내리지 않았거나 다시 맨위로 올라갈 경우 기존에 main.css에 쓰여있는 효과들을 적용
     }else {
         new_header.style.position = "absolute"
         new_header.style.backgroundColor = "black"
@@ -157,10 +180,88 @@ window.addEventListener('scroll', function() {
         new_head_middle.style.visibility="hidden"
 
 
-        
 
-
+        scrollToTop.style.display = 'none'
 
 
     }
+
 });
+
+
+// '체험'을 클릭했을때 발생하는 이벤트
+new_chehum.addEventListener("click", function() {
+    // 기존 상단바는 (위치, 체크인, 체크아웃, 인원) 제거 
+    circle_menu.style.visibility = "hidden"
+    // 새로운 상단바 (위치, 체크아웃) 생성
+    another_circle.style.visibility = "visible"
+    // '체험'을 클릭했으므로 체험 밑에 고정된 밑줄이 생기고 마우스만 갖다댄 경우와 달리 글씨가 하얀색이며 커서가 pointer -> default로 변했다.
+    new_chehum1.className="underline"
+    new_chehum.style.color="white"
+    new_chehum.style.cursor="default"
+
+    // '체험'을 클릭했으므로 숙소는 클릭전으로 돌아갔으므로 마우스를 갖다대면 짧은 밑줄이 생겼다가 마우스를 떼면 짧은 밑줄이 없어지는 효과를 주었다.
+    new_sukso1.className="sukso1"
+    new_sukso.className="sukso"
+    new_sukso.style.cursor="pointer"
+
+})
+
+// '체험'을 클릭하지 않고 마우스만 갖다댄 경우 글씨 색은 회색
+new_chehum.addEventListener('mouseover', function(){
+    new_chehum.style.color="gray"
+});
+// 마우스를 뗀 경우 글씨 색은 하얀색
+new_chehum.addEventListener('mouseout', function(){
+    new_chehum.style.color="white"
+});
+
+// '숙소'를 클릭했을때 발생하는 이벤트
+new_sukso.addEventListener("click", function() {
+    // '숙소'를 클릭했을때 나타나는 상단바(위치, 체크인, 체크아웃, 인원) 생성
+    circle_menu.style.visibility = "visible"
+    // '체험'을 클릭했을때 생기는 상단바(위치, 체크아웃)는 제거
+    another_circle.style.visibility = "hidden"
+    // '숙소'를 클릭했으므로 숙소 밑에 고정된 밑줄이 생기고 마우스만 갖다댄 경우와 달리 글씨가 하얀색이며 커서가 pointer -> default로 변했다.
+    new_sukso1.className="underline"
+    new_sukso.style.color="white"
+    new_sukso.style.cursor="default"
+
+    // '숙소'를 클릭했으므로 체험은 클릭전으로 돌아갔으므로 마우스를 갖다대면 짧은 밑줄이 생겼다가 마우스를 떼면 짧은 밑줄이 없어지는 효과를 주었다.
+    new_chehum1.className="chehum1"
+    new_chehum.className="chehum"
+    new_chehum.style.cursor="pointer"
+
+})
+
+// '숙소'를 클릭하지 않고 마우스만 갖다댄 경우 글씨 색은 회색
+new_sukso.addEventListener('mouseover', function(){
+    new_sukso.style.color="gray"
+});
+//  마우스를 뗀 경우 글씨 색은 하얀색
+new_sukso.addEventListener('mouseout', function(){
+    new_sukso.style.color="white"
+});
+
+
+// 맨처음 즉 첫 화면은 숙소가 클릭되어져 있는 상태이고 scroll to top을 위한 이미지가 안보여야하는 상태여야 한다.
+window.onload = function(){
+    new_sukso1.className="underline"
+    new_sukso.style.color="white"
+    new_sukso.style.cursor="default"
+    scrollToTop.style.display = 'none'
+}
+
+
+
+
+// 이미지 클릭시 위로 올라감
+scrollToTop.addEventListener("click", function () {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+
+  });
+

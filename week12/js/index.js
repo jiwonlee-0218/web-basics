@@ -29,3 +29,18 @@ window.addEventListener('scroll', function() {
 //       behavior: "smooth",
 //     });
 //   });
+
+
+
+const scrollToTop = () => {
+    window.scroll({top:0, left:0, behavior:'smooth'});
+}
+
+const scrollToTopBtn = document.querySelector('btn--scrollToTop')
+
+window.addEventListener("scroll", function(){
+
+    window.scrollY > 30
+    ? scrollToTopBtn.style.display = 'block'
+    : scrollToTopBtn.style.display = 'none'
+})
