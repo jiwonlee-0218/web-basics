@@ -5,7 +5,8 @@ const new_header = document.querySelector('.head');
 const circle_menu = document.querySelector('.circle');
 
 // 에어비앤비 로고
-const new_logo = document.getElementsByClassName('logo');
+// const new_logo = document.getElementsByClassName('logo');
+const new_logo = document.querySelector('.logo');
 
 // 오른쪽 상단에 위치한 호스트되기 
 const new_host = document.querySelector('.host');
@@ -63,7 +64,19 @@ window.addEventListener('scroll', function() {
 
 
         // 스크롤 내리면 에어비앤비 로고의 색깔이 변하도록 바꿔주었다.
-        new_logo[0].style.color="#ff385c"
+        new_logo.style.color="#ff385c"
+
+
+
+        // 스크롤 내렸을때 왼쪽 상단의 에어비앤비 로고를 클릭하면 다시 맨 위로 올라간다.
+        new_logo.addEventListener("click", function() {
+            window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "auto"
+            });
+        
+        });
 
 
 
@@ -138,7 +151,7 @@ window.addEventListener('scroll', function() {
         circle_menu.style.transitionDuration = "0s"
         
 
-        new_logo[0].style.color="white"
+        new_logo.style.color="white"
 
 
 
@@ -260,8 +273,31 @@ scrollToTop.addEventListener("click", function () {
     window.scroll({
       top: 0,
       left: 0,
-      behavior: "smooth",
+      behavior: "smooth"
     });
 
   });
 
+
+
+
+
+
+
+const membership_bar = document.querySelector('.membership_bar');
+const membership = document.querySelector('.membership');
+const bar_close = document.querySelector('.bar_close');
+
+
+
+// 오른쪽 상단에 회원가입 아이콘을 클릭했을때 이와 관련한 메뉴가 뜨도록함
+membership.addEventListener("click", () => {
+       membership_bar.style.visibility="visible"
+       bar_close.style.visibility="visible"
+})
+
+// 메뉴를 없애주기위에 X모양 아이콘을 누르면 전부 사라진다.
+bar_close.addEventListener("click", () => {
+    membership_bar.style.visibility="hidden"
+    bar_close.style.visibility="hidden"
+})

@@ -44,6 +44,7 @@ header {
     height: 32px;
     fill: currentcolor;
     display: block;
+    cursor: pointer;
 }
 
 
@@ -694,7 +695,7 @@ header {
 
 .new_cir2_2 {
     position: absolute;
-    width: 148px;
+    width: 180px;
     height: 18px;
     top: 33px;
     left: 32px;
@@ -1138,7 +1139,7 @@ header {
     height: 22px;
     top: 490px;
 
-    font-size: 16px;
+    font-size: 14px;
     line-height: 18px;
     font-weight: 400;
     color: black;
@@ -1406,4 +1407,115 @@ header {
     animation: float 6s linear infinite;
     border-radius: 100%;
 
+}
+
+
+
+
+
+/* 오른쪽 상단의 회원가입 아이콘을 클릭했을때 나타나는 메뉴 + 그 메뉴를 닫기위한 X버튼 ... 을 위한 CSS */
+
+.bar_close {
+    background-color: white;
+    position: fixed;
+    width: 20px;
+    height: 15px;
+    top: 85px;
+    right: 165px;
+
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    border-radius: 21px;
+    cursor: pointer;
+    transition: box-shadow 0s ease;
+
+    visibility: hidden;
+}
+
+
+.bar_close:hover{
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 30%), 0px 4px 15px rgb(0 0 0 / 15%);
+}
+
+
+.membership_bar {
+    background-color: white;
+    position: fixed;
+    width: 250px;
+    height: 270px;
+    right: 160px;
+    top: 110px;
+    border-radius: 21px;
+
+    visibility: hidden;
+
+}
+
+.membership_bar > ul:first-child {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    -webkit-padding-start: 0px;
+    list-style: none;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.membership_bar > ul:last-child {
+    position: absolute;
+    bottom: 0px;
+    width: 250px;
+    height: 137px;
+    -webkit-padding-start: 0px;
+    list-style: none;
+}
+
+.membership_bar > ul:first-child li {
+    font-size: 14px;
+
+    padding-left: 15px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.membership_bar > ul:first-child li:first-child {
+    font-weight: 600;
+}
+
+.membership_bar > ul:last-child li {
+    font-size: 14px;
+    
+
+    padding-left: 15px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+
+.membership_bar > ul:first-child li:first-child:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.membership_bar > ul:first-child li:last-child:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.membership_bar > ul:last-child li:nth-child(2):hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.membership_bar > ul:last-child li:first-child:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.membership_bar > ul:last-child li:last-child:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
 }

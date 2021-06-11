@@ -44,3 +44,50 @@ window.addEventListener("scroll", function(){
     ? scrollToTopBtn.style.display = 'block'
     : scrollToTopBtn.style.display = 'none'
 })
+
+
+
+
+const membership_bar = document.querySelector('.membership_bar');
+const membership = document.querySelector('.membership');
+const bar_close = document.querySelector('.bar_close');
+
+
+
+
+membership.addEventListener("click", () => {
+       membership_bar.style.visibility="visible"
+       bar_close.style.visibility="visible"
+})
+
+
+bar_close.addEventListener("click", () => {
+    membership_bar.style.visibility="hidden"
+    bar_close.style.visibility="hidden"
+})
+
+
+
+
+
+
+// function a(){
+//     const membership_bar = document.querySelector('.membership_bar');
+//     const membership = document.querySelector('.membership');
+
+//     if(membership_bar.style.visibility = 'hidden'){
+//         membership_bar.style.visibility = "visible"
+//         document.body.style.background="yellow"
+//     }
+// }
+
+
+
+// membership.addEventListener("click",() => {
+//     membership_bar.style.display="block"
+// })
+
+
+
+
+

@@ -437,3 +437,120 @@ header {
     border-radius: 100%;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bar_close {
+    background-color: white;
+    position: fixed;
+    width: 20px;
+    height: 15px;
+    top: 128px;
+    right: 25px;
+
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    border-radius: 21px;
+    cursor: pointer;
+    transition: box-shadow 0s ease;
+
+    visibility: hidden;
+}
+
+
+.bar_close:hover{
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 30%), 0px 4px 15px rgb(0 0 0 / 15%);
+}
+
+
+.membership_bar {
+    background-color: white;
+    position: fixed;
+    width: 250px;
+    height: 270px;
+    right: 10px;
+    top: 150px;
+    border-radius: 21px;
+
+    visibility: hidden;
+
+}
+
+.membership_bar > ul:first-child {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    -webkit-padding-start: 0px;
+    list-style: none;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.membership_bar > ul:last-child {
+    position: absolute;
+    bottom: 0px;
+    width: 250px;
+    height: 137px;
+    -webkit-padding-start: 0px;
+    list-style: none;
+}
+
+.membership_bar > ul:first-child li {
+    font-size: 14px;
+
+    padding-left: 15px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.membership_bar > ul:first-child li:first-child {
+    font-weight: 600;
+}
+
+.membership_bar > ul:last-child li {
+    font-size: 14px;
+    
+
+    padding-left: 15px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+
+.membership_bar > ul:first-child li:first-child:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.membership_bar > ul:first-child li:last-child:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.membership_bar > ul:last-child li:nth-child(2):hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.membership_bar > ul:last-child li:first-child:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.membership_bar > ul:last-child li:last-child:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
