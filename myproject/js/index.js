@@ -114,13 +114,13 @@ window.addEventListener('scroll', function() {
 
 
 
-        // 스크롤을 내리면 이전에는 보이지 않았던 멤버쉽아이콘에 연한 테두리가 생겼고
+        // 스크롤을 내리면 이전에는 보이지 않았던 membership(회원가입)아이콘에 연한 테두리가 생겼고
         new_membership.setAttribute('style', 'transition: box-shadow 0.2s ease;  border: 1px solid #DDDDDD;')
-        // 마우스를 멤버쉽아이콘에 올리면 박스에 shadow효과를 주어 입체적으로 떠보이게 하였다.
+        // 마우스를 membership(회원가입)아이콘에 올리면 박스에 shadow효과를 주어 입체적으로 떠보이게 하였다.
         new_membership.addEventListener('mouseover', function(){
             new_membership.style.boxShadow = "0px 1px 2px rgb(0 0 0 / 15%), 0px 4px 12px rgb(0 0 0 / 15%)"
         });
-        // 마우스를 엠버쉽아이콘에서 내리면 다시 연한 테두리고 바뀐다.
+        // 마우스를 membership(회원가입)아이콘에서 내리면 다시 연한 테두리고 바뀐다.
         new_membership.addEventListener('mouseout', function(){
             new_membership.style.boxShadow = "none"
         });
