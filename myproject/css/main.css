@@ -1473,6 +1473,8 @@ header {
 
 }
 
+
+/* ul태그는 리스트를 자동으로 만드는 태그이므로 좌측에 여백을 자동으로 가지고있어 ul태그안에 -webkit-padding-start:0px 를 사용해서 좌측의 여백을 없애줌 */
 .membership_bar > ul:first-child {
     position: absolute;
     width: 250px;
@@ -1482,6 +1484,8 @@ header {
     border-bottom: 1px solid #DDDDDD;
 }
 
+
+/* ul태그는 리스트를 자동으로 만드는 태그이므로 좌측에 여백을 자동으로 가지고있어 ul태그안에 -webkit-padding-start:0px 를 사용해서 좌측의 여백을 없애줌 */
 .membership_bar > ul:last-child {
     position: absolute;
     bottom: 0px;
