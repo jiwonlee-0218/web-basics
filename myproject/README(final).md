@@ -3,17 +3,17 @@
 ## 이벤트 기능
 
 - 상단 가운데의 숙소, 체험, 온라인 체험 메뉴에서 클릭할때마다 아래의 검색창이 달라지도록 구현하였다. 
-또한 숙소, 체험, 온라인 체험 메뉴 + 검색창에 마우스만 갖다대도(hover) 조금씩 달라지도록 효과를 주었다.
+또한 숙소, 체험, 온라인 체험 메뉴과 검색창(위치, 체크인, 체크아웃, 인원, 날짜)에 마우스만 갖다대도(hover) 조금씩 달라지도록 효과를 주었다.
 
-<img src="./images/final_images/1.png" height="450" width="650"> 
+<img src="./images/final_images/1.png" height="350" width="1000"> 
 
-<img src="./images/final_images/2.png" height="450" width="650"> 
+<img src="./images/final_images/2.png" height="350" width="1000"> 
 
 
 - 스크롤을 내리면 헤더가 전체적으로 바뀌어 따라내려오도록 하였다.
 또한 전체헤더의 아랫부분에 shadow효과를 주었고 + 검색 시작하기에 마우스를 갖다대면 입체적으로 보이도록 효과를 주었고 + 오른쪽 상단의 membership(회원가입)에도 마우스를 갖다대면 입체적으로 보이도록 효과를 주었다.
 
-<img src="./images/final_images/3.png" height="450" width="650"> 
+<img src="./images/final_images/3.png" height="250" width="1000"> 
 
 
 
