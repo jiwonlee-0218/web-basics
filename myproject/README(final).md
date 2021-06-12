@@ -5,15 +5,15 @@
 - 상단 가운데의 숙소, 체험, 온라인 체험 메뉴에서 클릭할때마다 아래의 검색창이 달라지도록 구현하였다. 
 또한 숙소, 체험, 온라인 체험 메뉴과 검색창(위치, 체크인, 체크아웃, 인원, 날짜)에 마우스만 갖다대도(hover) 조금씩 달라지도록 효과를 주었다.
 
-<img src="./images/final_images/1.png" height="350" width="1000"> 
+<img src="./images/final_images/1.png" height="250" width="1000"> 
 
-<img src="./images/final_images/2.png" height="350" width="1000"> 
+<img src="./images/final_images/2.png" height="250" width="1000"> 
 
 
 - 스크롤을 내리면 헤더가 전체적으로 바뀌어 따라내려오도록 하였다.
 또한 전체헤더의 아랫부분에 shadow효과를 주었고 + 검색 시작하기에 마우스를 갖다대면 입체적으로 보이도록 효과를 주었고 + 오른쪽 상단의 membership(회원가입)에도 마우스를 갖다대면 입체적으로 보이도록 효과를 주었다.
 
-<img src="./images/final_images/33.PNG" height="250" width="1000"> 
+<img src="./images/final_images/33.PNG" height="200" width="1500"> 
 
 
 
@@ -21,9 +21,9 @@
 이 메뉴를 닫을때는 메뉴 위에보이는 X를 누르면 닫혀진다.(X를 누르기위해 hover했을때 shadow 효과도 줌) 
 또한 회원가입, 로그인, 숙소 호스트 되기, 체험 호스팅하기, 도움말에 마우스를 갖다대면 연한회색으로 바뀌는 효과를 주었다. 스크롤을 내렸을때에도 바뀐 헤더의 membership(회원가입)을 누르면 같은 반응을 보이도록 하였다.
 
-<img src="./images/final_images/4.png" height="450" width="650"> 
+<img src="./images/final_images/4.png" height="450" width="550"> 
 
-<img src="./images/final_images/5.png" height="450" width="650"> 
+<img src="./images/final_images/5.png" height="450" width="550"> 
 
 
 - 스크롤을 내리는 순간 오른쪽하단에 핑크색의 에어비앤비 버튼이 생기는데 이 버튼을 활용하여 scroll to top 기능을 넣었다. (smooth)
